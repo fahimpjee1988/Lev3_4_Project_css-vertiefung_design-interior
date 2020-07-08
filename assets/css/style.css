@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&display=swap');
+/* assets: Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
+
+
+body{
+    margin:0;
+    font-family: 'Lora', serif;
+ padding: 0;
+
+}
+
+#hh{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:77vh;
+    background: url(../img/design-interior-1.jpg) right no-repeat;
+}
+
+
+
+#hh div:first-of-type{
+    text-align: center;
+    padding-top: 30%;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+#hh h1{
+    padding-left: 9%;
+    font-size: 44px;
+    letter-spacing: 1em;
+    padding:0;
+}
+
+#story {
+    padding-top: 0;
+    
+    background:#2e2e2e;
+    color: #fff;
+}
+
+
+nav{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    display:  inline-block;
+    padding-right: 12%;
+
+}
+
+ a{
+text-decoration: none;
+color: #fff;
+}
+a:visited{
+    color:#fff;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#story article:first-of-type{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+#story div:last-of-type{
+    text-align: center;
+}
+
+#story div:last-of-type h3{
+font-size: 2em;
+
+}
+
+#story div:last-of-type p{
+    line-height: 2em;
+    }
+
+.pics {
+    display:flex;
+    justify-content: space-between;
+    height:80vh;
+    padding-left: 4%;
+    padding-right:5%;
+    padding-top:0;
+    padding-bottom: 0;
+}
+.pics img{
+    width: 20em;
+    height: 40vh;
+    padding-right: 4%;
+}
+.pics p{
+    text-align: center;
+}
+
+
+#thirdsec h3,p {
+    text-align:   center;
+
+}
+.video{
+    margin-right: 14%;
+}
+
+#lastsec{
+    display: flex;
+    justify-content: space-between;
+    background:#2e2e2e;
+    color: #fff;
+    height:60vh;
+    align-items: center;
+
+}
+#lastsec div{
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background:#1d2c2f;
+}
+
+
+
