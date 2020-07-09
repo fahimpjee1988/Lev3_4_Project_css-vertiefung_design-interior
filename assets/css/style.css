@@ -13,6 +13,9 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr;
     height:77vh;
+    
+}
+#hh div:last-of-type{
     background: url(../img/design-interior-1.jpg) right no-repeat;
 }
 
@@ -45,11 +48,15 @@ nav{
 
     justify-content: space-between;
 }
+ul{
+    width:50%;
+}
 
 ul li{
     list-style: none;
     display:  inline-block;
     padding-right: 12%;
+    
 
 }
 
@@ -86,13 +93,12 @@ font-size: 2em;
     }
 
 .pics {
-    display:flex;
-    justify-content: space-between;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
     height:80vh;
     padding-left: 4%;
     padding-right:5%;
-    padding-top:0;
-    padding-bottom: 0;
+  
 }
 .pics img{
     width: 20em;
@@ -101,15 +107,18 @@ font-size: 2em;
 }
 .pics p{
     text-align: center;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 
 #thirdsec h3,p {
+    
     text-align:   center;
 
 }
-.video{
-    margin-right: 14%;
+iframe{
+margin: 0 auto
 }
 
 #lastsec{
@@ -125,6 +134,12 @@ font-size: 2em;
     width: 50%;
 }
 
+#lastsec div:first-of-type{
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -133,4 +148,8 @@ footer{
 }
 
 
+
+#thirdsec div:last-of-type{
+    margin:0 auto;
+}
 
